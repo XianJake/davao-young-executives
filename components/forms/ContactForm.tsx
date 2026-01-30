@@ -66,7 +66,7 @@ const ContactForm: React.FC = () => {
           {...register('name')}
           type="text"
           id="name"
-          className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0ea5e9] transition-colors ${
+          className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#09006C] transition-colors ${
             errors.name ? 'border-red-500' : 'border-gray-300'
           }`}
           placeholder="Your full name"
@@ -85,7 +85,7 @@ const ContactForm: React.FC = () => {
           {...register('email')}
           type="email"
           id="email"
-          className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0ea5e9] transition-colors ${
+          className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#09006C] transition-colors ${
             errors.email ? 'border-red-500' : 'border-gray-300'
           }`}
           placeholder="your.email@example.com"
@@ -104,7 +104,7 @@ const ContactForm: React.FC = () => {
           {...register('subject')}
           type="text"
           id="subject"
-          className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0ea5e9] transition-colors ${
+          className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#09006C] transition-colors ${
             errors.subject ? 'border-red-500' : 'border-gray-300'
           }`}
           placeholder="How can we help you?"
@@ -123,7 +123,7 @@ const ContactForm: React.FC = () => {
           {...register('message')}
           id="message"
           rows={6}
-          className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#0ea5e9] transition-colors resize-none ${
+          className={`w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-[#09006C] transition-colors resize-none ${
             errors.message ? 'border-red-500' : 'border-gray-300'
           }`}
           placeholder="Tell us more about your inquiry..."

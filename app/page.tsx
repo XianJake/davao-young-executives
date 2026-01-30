@@ -5,9 +5,9 @@ import Button from '@/components/ui/Button';
 
 export default function Home() {
   const stats = [
-    { label: 'Active Members', value: '500+', icon: Users },
-    { label: 'Events Held', value: '50+', icon: Calendar },
-    { label: 'Years of Service', value: '10+', icon: Award },
+    { label: 'Active Members', value: '200+', icon: Users },
+    { label: 'Events Held', value: '40+', icon: Calendar },
+    { label: 'Years of Service', value: '3 Years', icon: Award },
   ];
 
   const features = [
@@ -56,7 +56,7 @@ export default function Home() {
                   key={index}
                   className="text-center p-8 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow"
                 >
-                  <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#0ea5e9] to-[#0284c7] rounded-full mb-4">
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#09006C] to-[#06004a] rounded-full mb-4">
                     <Icon className="text-white" size={32} />
                   </div>
                   <p className="text-4xl font-poppins font-bold text-gray-900 mb-2">
@@ -88,10 +88,10 @@ export default function Home() {
               return (
                 <div
                   key={index}
-                  className="p-8 border border-gray-200 rounded-xl hover:border-[#0ea5e9] hover:shadow-lg transition-all group"
+                  className="p-8 border border-gray-200 rounded-xl hover:border-[#09006C] hover:shadow-lg transition-all group"
                 >
-                  <div className="inline-flex items-center justify-center w-12 h-12 bg-[#0ea5e9]/10 rounded-lg mb-4 group-hover:bg-[#0ea5e9] transition-colors">
-                    <Icon className="text-[#0ea5e9] group-hover:text-white transition-colors" size={24} />
+                  <div className="inline-flex items-center justify-center w-12 h-12 bg-[#09006C]/10 rounded-lg mb-4 group-hover:bg-[#09006C] transition-colors">
+                    <Icon className="text-[#09006C] group-hover:text-white transition-colors" size={24} />
                   </div>
                   <h3 className="font-poppins font-semibold text-xl text-gray-900 mb-3">
                     {feature.title}
@@ -107,7 +107,7 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-br from-[#0ea5e9] to-[#0284c7] text-white">
+      <section className="py-20 bg-gradient-to-br from-[#09006C] to-[#06004a] text-white">
         <Container>
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="font-poppins font-bold text-3xl md:text-4xl mb-6">
@@ -128,7 +128,7 @@ export default function Home() {
               <Button
                 href="/about"
                 variant="outline"
-                className="bg-white/10 border-white text-white hover:bg-white hover:text-[#0ea5e9]"
+                className="bg-white/10 border-white text-white hover:bg-white hover:text-[#09006C]"
               >
                 Learn About Our Mission
               </Button>

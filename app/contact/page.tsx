@@ -14,8 +14,8 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      details: 'info@davaoyoungexecutives.org',
-      link: 'mailto:info@davaoyoungexecutives.org',
+      details: 'davaoyoungexecutives@gmail.com',
+      link: 'mailto:davaoyoungexecutives@gmail.com',
     },
     {
       icon: Phone,
@@ -68,7 +68,7 @@ export default function Contact() {
                   const content = (
                     <div className="flex items-start space-x-4 p-6 bg-white rounded-xl shadow-md hover:shadow-lg transition-shadow">
                       <div className="flex-shrink-0">
-                        <div className="w-12 h-12 bg-gradient-to-br from-[#0ea5e9] to-[#0284c7] rounded-lg flex items-center justify-center">
+                        <div className="w-12 h-12 bg-gradient-to-br from-[#09006C] to-[#06004a] rounded-lg flex items-center justify-center">
                           <Icon className="text-white" size={24} />
                         </div>
                       </div>
@@ -94,7 +94,7 @@ export default function Contact() {
               </div>
 
               {/* Additional Info */}
-              <div className="mt-8 bg-gradient-to-br from-[#0ea5e9] to-[#0284c7] rounded-xl p-8 text-white">
+              <div className="mt-8 bg-gradient-to-br from-[#09006C] to-[#06004a] rounded-xl p-8 text-white">
                 <h3 className="font-poppins font-bold text-xl mb-4">
                   Interested in Becoming a Member?
                 </h3>

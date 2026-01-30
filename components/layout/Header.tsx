@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 import Container from '@/components/ui/Container';
 import Button from '@/components/ui/Button';
@@ -21,13 +22,15 @@ const Header: React.FC = () => {
       <Container>
         <nav className="flex items-center justify-between py-4">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-[#0ea5e9] to-[#0284c7] rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">DYE</span>
-            </div>
-            <span className="font-poppins font-bold text-xl text-gray-900">
-              Davao Young Executives
-            </span>
+          <Link href="/" className="flex items-center space-x-3">
+            <Image
+              src="/DYELOGO.png"
+              alt="Davao Young Executives Logo"
+              width={120}
+              height={40}
+              priority
+              className="h-auto w-auto max-h-12"
+            />
           </Link>
 
           {/* Desktop Navigation */}
@@ -36,7 +39,7 @@ const Header: React.FC = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-[#0ea5e9] font-medium transition-colors"
+                className="text-gray-700 hover:text-[#09006C] font-medium transition-colors"
               >
                 {item.name}
               </Link>
@@ -48,7 +51,7 @@ const Header: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 text-gray-700 hover:text-[#0ea5e9] transition-colors"
+            className="md:hidden p-2 text-gray-700 hover:text-[#09006C] transition-colors"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -64,7 +67,7 @@ const Header: React.FC = () => {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-gray-700 hover:text-[#0ea5e9] font-medium transition-colors py-2"
+                  className="text-gray-700 hover:text-[#09006C] font-medium transition-colors py-2"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {item.name}

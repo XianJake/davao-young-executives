@@ -10,7 +10,7 @@ export default function LeadershipSkillsPost() {
           {/* Back Link */}
           <Link
             href="/blog"
-            className="inline-flex items-center text-[#0ea5e9] hover:text-[#0284c7] font-medium mb-8 transition-colors"
+            className="inline-flex items-center text-[#09006C] hover:text-[#06004a] font-medium mb-8 transition-colors"
           >
             <ArrowLeft className="mr-2" size={20} />
             Back to Blog
@@ -19,7 +19,7 @@ export default function LeadershipSkillsPost() {
           {/* Article Header */}
           <div className="bg-white rounded-xl shadow-md p-8 md:p-12 mb-8">
             <div className="mb-6">
-              <span className="inline-block px-3 py-1 bg-[#0ea5e9]/10 text-[#0ea5e9] text-sm font-medium rounded-full">
+              <span className="inline-block px-3 py-1 bg-[#09006C]/10 text-[#09006C] text-sm font-medium rounded-full">
                 Leadership
               </span>
             </div>
@@ -94,7 +94,7 @@ export default function LeadershipSkillsPost() {
               also active listening and tailoring messages to different stakeholders.
             </p>
 
-            <div className="bg-[#0ea5e9]/5 border-l-4 border-[#0ea5e9] p-6 my-8 rounded-r-lg">
+            <div className="bg-[#09006C]/5 border-l-4 border-[#09006C] p-6 my-8 rounded-r-lg">
               <p className="text-gray-700 italic">
                 "The greatest leaders are not those who strive for personal success, but those who empower
                 others to achieve their fullest potential." - Maria Santos
@@ -113,7 +113,7 @@ export default function LeadershipSkillsPost() {
           </div>
 
           {/* CTA */}
-          <div className="bg-gradient-to-br from-[#0ea5e9] to-[#0284c7] rounded-xl shadow-md p-8 mt-8 text-white text-center">
+          <div className="bg-gradient-to-br from-[#09006C] to-[#06004a] rounded-xl shadow-md p-8 mt-8 text-white text-center">
             <h3 className="font-poppins font-bold text-2xl mb-4">
               Ready to Develop Your Leadership Skills?
             </h3>

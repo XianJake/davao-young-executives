@@ -38,7 +38,7 @@ export default function About() {
         <Container>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#0ea5e9] to-[#0284c7] rounded-full mb-6">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#09006C] to-[#06004a] rounded-full mb-6">
                 <Target className="text-white" size={32} />
               </div>
               <h2 className="font-poppins font-bold text-3xl md:text-4xl text-gray-900 mb-6">
@@ -60,7 +60,7 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="bg-gradient-to-br from-[#0ea5e9] to-[#0284c7] rounded-2xl p-8 text-white shadow-xl">
+            <div className="bg-gradient-to-br from-[#09006C] to-[#06004a] rounded-2xl p-8 text-white shadow-xl">
               <h3 className="font-poppins font-bold text-2xl mb-6">What We Do</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
@@ -93,7 +93,7 @@ export default function About() {
       <section className="py-20 bg-gray-50">
         <Container>
           <div className="max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#0ea5e9] to-[#0284c7] rounded-full mb-6">
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#09006C] to-[#06004a] rounded-full mb-6">
               <Eye className="text-white" size={32} />
             </div>
             <h2 className="font-poppins font-bold text-3xl md:text-4xl text-gray-900 mb-6">
@@ -106,15 +106,15 @@ export default function About() {
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
               <div className="bg-white p-6 rounded-xl shadow-md">
-                <p className="text-4xl font-poppins font-bold text-[#0ea5e9] mb-2">500+</p>
+                <p className="text-4xl font-poppins font-bold text-[#09006C] mb-2">200+</p>
                 <p className="text-gray-600 font-medium">Active Members</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md">
-                <p className="text-4xl font-poppins font-bold text-[#0ea5e9] mb-2">50+</p>
+                <p className="text-4xl font-poppins font-bold text-[#09006C] mb-2">50+</p>
                 <p className="text-gray-600 font-medium">Annual Events</p>
               </div>
               <div className="bg-white p-6 rounded-xl shadow-md">
-                <p className="text-4xl font-poppins font-bold text-[#0ea5e9] mb-2">10+</p>
+                <p className="text-4xl font-poppins font-bold text-[#09006C] mb-2">3+</p>
                 <p className="text-gray-600 font-medium">Years of Service</p>
               </div>
             </div>
@@ -140,10 +140,10 @@ export default function About() {
               return (
                 <div
                   key={index}
-                  className="text-center p-6 border border-gray-200 rounded-xl hover:border-[#0ea5e9] hover:shadow-lg transition-all group"
+                  className="text-center p-6 border border-gray-200 rounded-xl hover:border-[#09006C] hover:shadow-lg transition-all group"
                 >
-                  <div className="inline-flex items-center justify-center w-14 h-14 bg-[#0ea5e9]/10 rounded-full mb-4 group-hover:bg-[#0ea5e9] transition-colors">
-                    <Icon className="text-[#0ea5e9] group-hover:text-white transition-colors" size={28} />
+                  <div className="inline-flex items-center justify-center w-14 h-14 bg-[#09006C]/10 rounded-full mb-4 group-hover:bg-[#09006C] transition-colors">
+                    <Icon className="text-[#09006C] group-hover:text-white transition-colors" size={28} />
                   </div>
                   <h3 className="font-poppins font-semibold text-xl text-gray-900 mb-3">
                     {value.title}
@@ -159,7 +159,7 @@ export default function About() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-br from-[#0ea5e9] to-[#0284c7] text-white">
+      <section className="py-16 bg-gradient-to-br from-[#09006C] to-[#06004a] text-white">
         <Container>
           <div className="text-center max-w-3xl mx-auto">
             <h2 className="font-poppins font-bold text-3xl md:text-4xl mb-4">

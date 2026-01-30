@@ -20,7 +20,7 @@ const Hero: React.FC<HeroProps> = ({
   secondaryCtaLink,
 }) => {
   return (
-    <section className="relative bg-gradient-to-br from-[#0ea5e9] to-[#0284c7] text-white py-20 md:py-32 overflow-hidden">
+    <section className="relative bg-gradient-to-br from-[#09006C] to-[#06004a] text-white py-20 md:py-32 overflow-hidden">
       {/* Background Pattern */}
       <div
         className="absolute inset-0 opacity-10"
@@ -50,7 +50,7 @@ const Hero: React.FC<HeroProps> = ({
                 </Button>
               )}
               {secondaryCtaText && secondaryCtaLink && (
-                <Button href={secondaryCtaLink} variant="outline" className="bg-white/10 border-white text-white hover:bg-white hover:text-[#0ea5e9]">
+                <Button href={secondaryCtaLink} variant="outline" className="bg-white/10 border-white text-white hover:bg-white hover:text-[#09006C]">
                   {secondaryCtaText}
                 </Button>
               )}

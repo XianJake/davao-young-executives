@@ -42,13 +42,13 @@ export default function Blog() {
               >
                 <div className="p-8">
                   <div className="flex items-center space-x-4 mb-4">
-                    <span className="inline-block px-3 py-1 bg-[#0ea5e9]/10 text-[#0ea5e9] text-sm font-medium rounded-full">
+                    <span className="inline-block px-3 py-1 bg-[#09006C]/10 text-[#09006C] text-sm font-medium rounded-full">
                       {post.category}
                     </span>
                     <span className="text-sm text-gray-500">{post.readTime}</span>
                   </div>
 
-                  <h2 className="font-poppins font-bold text-2xl text-gray-900 mb-3 group-hover:text-[#0ea5e9] transition-colors">
+                  <h2 className="font-poppins font-bold text-2xl text-gray-900 mb-3 group-hover:text-[#09006C] transition-colors">
                     <Link href={`/blog/${post.id}`}>
                       {post.title}
                     </Link>
@@ -72,7 +72,7 @@ export default function Blog() {
 
                     <Link
                       href={`/blog/${post.id}`}
-                      className="inline-flex items-center text-[#0ea5e9] font-medium hover:text-[#0284c7] transition-colors group"
+                      className="inline-flex items-center text-[#09006C] font-medium hover:text-[#06004a] transition-colors group"
                     >
                       Read More
                       <ArrowRight className="ml-1 group-hover:translate-x-1 transition-transform" size={16} />
