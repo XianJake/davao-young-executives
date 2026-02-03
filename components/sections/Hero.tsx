@@ -1,4 +1,5 @@
 import { ArrowRight } from 'lucide-react';
+import Image from 'next/image';
 import Container from '@/components/ui/Container';
 import Button from '@/components/ui/Button';
 
@@ -21,17 +22,20 @@ const Hero: React.FC<HeroProps> = ({
 }) => {
   return (
     <section className="relative bg-gradient-to-br from-[#09006C] to-[#06004a] text-white py-20 md:py-32 overflow-hidden">
-      {/* Background Pattern */}
-      <div
-        className="absolute inset-0 opacity-10"
-        style={{
-          backgroundImage: `
-            linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
-            linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px)
-          `,
-          backgroundSize: '50px 50px'
-        }}
-      />
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <Image
+          src="/Hero-BG.jpg"
+          alt="Hero Background"
+          fill
+          className="object-cover"
+          priority
+          quality={90}
+        />
+      </div>
+
+      {/* Blue Overlay with Blur Effect */}
+      <div className="absolute inset-0 bg-gradient-to-br from-[#09006C]/85 to-[#06004a]/85 backdrop-blur-sm" />
 
       <Container className="relative z-10">
         <div className="max-w-4xl mx-auto text-center">
