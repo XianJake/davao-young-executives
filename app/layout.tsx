@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { Inter, Poppins } from "next/font/google";
+import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
@@ -10,10 +11,40 @@ const inter = Inter({
   display: "swap",
 });
 
-const poppins = Poppins({
-  variable: "--font-poppins",
-  weight: ["400", "500", "600", "700", "800"],
-  subsets: ["latin"],
+const neuePower = localFont({
+  src: [
+    {
+      path: "../public/NeuePowerTrial/NeuePowerTrial-Light.ttf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "../public/NeuePowerTrial/NeuePowerTrial-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../public/NeuePowerTrial/NeuePowerTrial-Medium.ttf",
+      weight: "500",
+      style: "normal",
+    },
+    {
+      path: "../public/NeuePowerTrial/NeuePowerTrial-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "../public/NeuePowerTrial/NeuePowerTrial-Heavy.ttf",
+      weight: "800",
+      style: "normal",
+    },
+    {
+      path: "../public/NeuePowerTrial/NeuePowerTrial-Ultra.ttf",
+      weight: "900",
+      style: "normal",
+    },
+  ],
+  variable: "--font-heading",
   display: "swap",
 });
 
@@ -30,7 +61,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.variable} ${poppins.variable} antialiased`}
+        className={`${inter.variable} ${neuePower.variable} antialiased`}
       >
         <Header />
         {children}

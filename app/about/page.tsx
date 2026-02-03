@@ -1,4 +1,4 @@
-import { Target, Eye, Heart, Users, Briefcase, Globe } from 'lucide-react';
+import { Target, Eye, Heart, Users, Briefcase, Globe, BookOpen } from 'lucide-react';
 import Hero from '@/components/sections/Hero';
 import Container from '@/components/ui/Container';
 
@@ -32,6 +32,37 @@ export default function About() {
         title="About Davao Young Executives"
         subtitle="Learn about our mission to empower the next generation of leaders in Davao City"
       />
+
+      {/* Our Story Section */}
+      <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
+        <Container>
+          <div className="max-w-4xl mx-auto">
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-[#09006C] to-[#06004a] rounded-full mb-6">
+              <BookOpen className="text-white" size={32} />
+            </div>
+            <h2 className="font-poppins font-bold text-3xl md:text-4xl text-gray-900 mb-8">
+              Our Story
+            </h2>
+            <div className="space-y-6 text-gray-600 leading-relaxed text-lg">
+              <p>
+                DYE began as a project of Kota Study Center Davao, an academic and personal development
+                center for men located in downtown Davao. Kota provides programs and spaces for serious
+                study, academic support, and holistic formation, helping students grow in character,
+                culture, and Christian values while preparing for professional life.
+              </p>
+              <p>
+                In 2024, DYE entered a new chapter. A core team of tech students, student leaders, and
+                young entrepreneurs came together to continue the mission—learning from its founders and
+                reimagining DYE as a platform for innovation, leadership, and service.
+              </p>
+              <p className="font-medium text-gray-900">
+                Today, DYE carries forward its roots while building for the future, committed to giving
+                back to the community and creating meaningful impact.
+              </p>
+            </div>
+          </div>
+        </Container>
+      </section>
 
       {/* Mission Section */}
       <section className="py-20 bg-white">
