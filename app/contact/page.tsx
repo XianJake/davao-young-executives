@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin, Share2 } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 import Hero from '@/components/sections/Hero';
 import Container from '@/components/ui/Container';
 import ContactForm from '@/components/forms/ContactForm';
@@ -17,19 +17,19 @@ export default function Contact() {
       details: 'davaoyoungexecutives@gmail.com',
       link: 'mailto:davaoyoungexecutives@gmail.com',
     },
-    {
-      icon: Phone,
-      title: 'Phone',
-      details: '+63 82 123 4567',
-      link: 'tel:+63821234567',
-    },
+    // {
+    //   icon: Phone,
+    //   title: 'Phone',
+    //   details: '+63 82 123 4567',
+    //   link: 'tel:+63821234567',
+    // },
   ];
 
   return (
     <main>
       <Hero
         title="Get in Touch"
-        subtitle="Have questions? We'd love to hear from you!"
+        subtitle="Have questions? We&apos;d love to hear from you!"
       />
 
       <section className="py-20 bg-gray-50">
@@ -41,7 +41,7 @@ export default function Contact() {
                 Send Us a Message
               </h2>
               <p className="text-gray-600 mb-6">
-                Fill out the form below and we'll get back to you as soon as possible.
+                Fill out the form below and we&apos;ll get back to you as soon as possible.
               </p>
               <ContactForm />
             </div>
@@ -52,8 +52,8 @@ export default function Contact() {
                 Contact Information
               </h2>
               <p className="text-gray-600 mb-8">
-                Reach out to us through any of these channels. We're here to help and answer any
-                questions you may have about our organization and membership.
+                Reach out to us through any of these channels. We&apos;re here to help and answer any
+                questions you may have about our organization.
               </p>
 
               <div className="space-y-6">
@@ -125,8 +125,8 @@ export default function Contact() {
                 </h3>
                 <p className="text-blue-100 mb-6">
                   Join our community of young professionals and executives making a difference in
-                  Davao City. Whether you're interested in membership, collaboration, or sponsorship,
-                  we'd love to connect with you.
+                  Davao City. Whether you&apos;re interested in membership, collaboration, or sponsorship,
+                  we&apos;d love to connect with you.
                 </p>
                 <ul className="space-y-3 text-blue-100">
                   <li className="flex items-start">

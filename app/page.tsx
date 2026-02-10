@@ -86,10 +86,10 @@ export default function Home() {
             </div>
             <div>
               <h2 className="font-bold text-3xl md:text-4xl text-gray-900 mb-6">
-                Building Tomorrow's Leaders Today
+                Building Tomorrow&apos;s Leaders Today
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
-                Davao Young Executives (DYE) is more than just a professional organization—we're a community
+                Davao Young Executives (DYE) is more than just a professional organization; we&apos;re a community
                 of passionate individuals committed to making a difference in Davao City.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
@@ -113,7 +113,7 @@ export default function Home() {
               Why Join DYE?
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Discover the benefits of being part of Davao's premier organization for young professionals
+              Discover the benefits of being part of Davao&apos;s premier organization for young professionals
             </p>
           </div>
 
@@ -182,7 +182,7 @@ export default function Home() {
               </h2>
               <p className="text-gray-600 leading-relaxed mb-4">
                 Our community service initiatives have touched countless lives in Davao City. From educational
-                programs to environmental projects, we're committed to creating lasting positive change.
+                programs to environmental projects, we&apos;re committed to creating lasting positive change.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
                 Every event, every project, every connection we make is an opportunity to give back and build
@@ -220,7 +220,7 @@ export default function Home() {
               Partner With Us
             </h2>
             <p className="text-lg text-blue-100 mb-8">
-              Join hundreds of young professionals who are shaping the future of Davao City. Whether you're interested in membership, collaboration, or sponsorship opportunities, let's connect.
+              Join hundreds of young professionals who are shaping the future of Davao City. Whether you&apos;re interested in membership, collaboration, or sponsorship opportunities, let&apos;s connect.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button

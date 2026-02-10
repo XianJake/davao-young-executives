@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Linkedin, Mail, MapPin } from 'lucide-react';
 import Container from '@/components/ui/Container';
 
 const Footer: React.FC = () => {
@@ -11,11 +11,11 @@ const Footer: React.FC = () => {
     organization: [
       { name: 'About Us', href: '/about' },
       { name: 'Our Mission', href: '/about#mission' },
-      { name: 'Blog', href: '/blog' },
+      //{ name: 'Blog', href: '/blog' },
       { name: 'Contact', href: '/contact' },
     ],
     getInvolved: [
-      { name: 'Become a Member', href: '/contact' },
+      //{ name: 'Become a Member', href: '/contact' },
       { name: 'Events', href: '/blog' },
       { name: 'Volunteer', href: '/contact' },
       { name: 'Partner With Us', href: '/contact' },
@@ -23,10 +23,8 @@ const Footer: React.FC = () => {
   };
 
   const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
+    { icon: Facebook, href: 'https://www.facebook.com/DavaoYoungExecutives', label: 'Facebook' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/company/davao-young-executives', label: 'LinkedIn' },
   ];
 
   return (
@@ -55,7 +53,7 @@ const Footer: React.FC = () => {
                     key={social.label}
                     href={social.href}
                     aria-label={social.label}
-                    className="text-gray-400 hover:text-[#09006C] transition-colors"
+                    className="text-gray-400 hover:text-[#D5D3D1] transition-colors"
                   >
                     <Icon size={20} />
                   </a>
@@ -72,7 +70,7 @@ const Footer: React.FC = () => {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-sm hover:text-[#09006C] transition-colors"
+                    className="text-sm hover:text-[#D5D3D1] transition-colors"
                   >
                     {link.name}
                   </Link>
@@ -89,7 +87,7 @@ const Footer: React.FC = () => {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-sm hover:text-[#09006C] transition-colors"
+                    className="text-sm hover:text-[#D5D3D1] transition-colors"
                   >
                     {link.name}
                   </Link>
@@ -103,21 +101,21 @@ const Footer: React.FC = () => {
             <h3 className="font-poppins font-semibold text-white mb-4">Contact</h3>
             <ul className="space-y-3">
               <li className="flex items-start space-x-2 text-sm">
-                <MapPin size={18} className="text-[#09006C] mt-0.5 flex-shrink-0" />
+                <MapPin size={18} className="text-[#D5D3D1] mt-0.5 flex-shrink-0" />
                 <span>Davao City, Philippines</span>
               </li>
               <li className="flex items-center space-x-2 text-sm">
-                <Mail size={18} className="text-[#09006C] flex-shrink-0" />
-                <a href="mailto:info@davaoyoungexecutives.org" className="hover:text-[#09006C] transition-colors">
+                <Mail size={18} className="text-[#D5D3D1] flex-shrink-0" />
+                <a href="mailto:info@davaoyoungexecutives.org" className="hover:text-[#D5D3D1] transition-colors">
                   info@davaoyoungexecutives.org
                 </a>
               </li>
-              <li className="flex items-center space-x-2 text-sm">
-                <Phone size={18} className="text-[#09006C] flex-shrink-0" />
-                <a href="tel:+63821234567" className="hover:text-[#09006C] transition-colors">
+              {/* <li className="flex items-center space-x-2 text-sm">
+                <Phone size={18} className="text-[#D5D3D1] flex-shrink-0" />
+                <a href="tel:+63821234567" className="hover:text-[#D5D3D1] transition-colors">
                   +63 82 123 4567
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

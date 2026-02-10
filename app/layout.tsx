@@ -49,6 +49,7 @@ const neuePower = localFont({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://davaoyoungexecutives.com'),
   title: "Davao Young Executives - Empowering Future Leaders",
   description: "A non-profit organization dedicated to empowering young professionals and executives in Davao City through networking, mentorship, and community service.",
 };

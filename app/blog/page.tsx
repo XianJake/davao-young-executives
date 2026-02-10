@@ -6,22 +6,13 @@ import Container from '@/components/ui/Container';
 export default function Blog() {
   const posts = [
     {
-      id: 'leadership-skills-2026',
-      title: 'Essential Leadership Skills for Young Professionals in 2026',
-      excerpt: 'Discover the key leadership competencies that will set you apart in today\'s dynamic business environment.',
-      author: 'Maria Santos',
-      date: 'January 25, 2026',
-      category: 'Leadership',
-      readTime: '5 min read',
-    },
-    {
-      id: 'community-outreach-success',
-      title: 'How Our Community Outreach Program Changed Lives',
-      excerpt: 'A look back at our most impactful community service initiative and the stories of transformation it created.',
-      author: 'Juan dela Cruz',
-      date: 'January 20, 2026',
-      category: 'Community',
-      readTime: '4 min read',
+      id: 'davao-earthquake-response-2025',
+      title: 'When the Ground Shook: How Davao\'s Youth Leaders Answered the Call',
+      excerpt: 'When a 7.4 magnitude earthquake devastated Davao Oriental, 20+ youth organizations united to raise ₱114,709 in just 4 days, delivering hope to 400+ families across Manay and Caraga. This is the story of what happens when young leaders refuse to stand idle.',
+      author: 'Christian Jake A. Geonzon',
+      date: 'February 10, 2026',
+      category: 'Community Impact',
+      readTime: '8 min read',
     },
   ];
 

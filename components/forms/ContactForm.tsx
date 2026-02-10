@@ -156,7 +156,7 @@ const ContactForm: React.FC = () => {
       {submitStatus === 'success' && (
         <div className="flex items-center space-x-2 text-green-600 bg-green-50 p-4 rounded-lg">
           <CheckCircle size={20} />
-          <p className="text-sm font-medium">Message sent successfully! We'll get back to you soon.</p>
+          <p className="text-sm font-medium">Message sent successfully! We&apos;ll get back to you soon.</p>
         </div>
       )}
 
