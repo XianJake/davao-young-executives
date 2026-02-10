@@ -131,16 +131,16 @@ export default function DavaoEarthquakeResponsePost() {
             </p>
             <ul className="space-y-2 mb-6">
               <li className="text-gray-600 leading-relaxed">
-                <strong>Tech and Innovation:</strong> Dotside Studios, IEEE Philippine Section, The Bloom, DevCon Davao, Base, UXI, DSC, MooManage
+                <strong>Tech and Innovation:</strong> Dotside Studios, IEEE Philippine, The Bloom, DevCon Davao, Base, UX Davao, Davao Defi, MooManage and many more others
               </li>
               <li className="text-gray-600 leading-relaxed">
                 <strong>Student Organizations:</strong> Various university chapters including student councils from different institutions
               </li>
               <li className="text-gray-600 leading-relaxed">
-                <strong>Professional Networks:</strong> IDEAS, Cavalier Agrivet Supply, Phenomenal Filipina, FEAR NOT, and many others
+                <strong>Professional Networks:</strong> IDEAS Davao, Upgrade Innolab, Cavalier Agrivet Supply, Phenomenal Filipina, FEAR NOT, and many others
               </li>
               <li className="text-gray-600 leading-relaxed">
-                <strong>Supporting Partners:</strong> MexC Foundation became a major donor for the Caraga phase, demonstrating how established organizations can amplify youth-led initiatives.
+                <strong>Supporting Partners:</strong> Kota Study Center & MexC Foundation became a major donor for the Caraga phase, demonstrating how established organizations can amplify youth-led initiatives.
               </li>
             </ul>
             <p className="text-gray-600 leading-relaxed mb-6">
