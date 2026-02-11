@@ -3,12 +3,14 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
 import Container from '@/components/ui/Container';
 import Button from '@/components/ui/Button';
 
 const Header: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   const navigation = [
     { name: 'Home', href: '/' },
@@ -16,6 +18,13 @@ const Header: React.FC = () => {
     { name: 'Blog', href: '/blog' },
     { name: 'Contact', href: '/contact' },
   ];
+
+  const isActive = (href: string) => {
+    if (href === '/') {
+      return pathname === '/';
+    }
+    return pathname.startsWith(href);
+  };
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
@@ -39,9 +48,14 @@ const Header: React.FC = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-gray-700 hover:text-[#09006C] font-medium transition-colors"
+                className={`relative text-gray-700 hover:text-[#1200D9] font-medium transition-colors pb-1 ${
+                  isActive(item.href) ? 'text-[#1200D9]' : ''
+                }`}
               >
                 {item.name}
+                {isActive(item.href) && (
+                  <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-[#1200D9] to-[#0C008A] rounded-full"></span>
+                )}
               </Link>
             ))}
             <Button href="/contact" variant="primary">
@@ -51,7 +65,7 @@ const Header: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden p-2 text-gray-700 hover:text-[#09006C] transition-colors"
+            className="md:hidden p-2 text-gray-700 hover:text-[#1200D9] transition-colors"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -67,9 +81,14 @@ const Header: React.FC = () => {
                 <Link
                   key={item.name}
                   href={item.href}
-                  className="text-gray-700 hover:text-[#09006C] font-medium transition-colors py-2"
+                  className={`relative text-gray-700 hover:text-[#1200D9] font-medium transition-colors py-2 pl-4 ${
+                    isActive(item.href) ? 'text-[#1200D9]' : ''
+                  }`}
                   onClick={() => setMobileMenuOpen(false)}
                 >
+                  {isActive(item.href) && (
+                    <span className="absolute left-0 top-1/2 -translate-y-1/2 w-1 h-6 bg-gradient-to-b from-[#1200D9] to-[#0C008A] rounded-full"></span>
+                  )}
                   {item.name}
                 </Link>
               ))}

@@ -38,8 +38,8 @@ export default function Home() {
     <main>
       {/* Hero Section */}
       <Hero
-        title="Empowering Future Leaders in Davao City"
-        subtitle="Join a vibrant community of young professionals and executives dedicated to personal growth, professional excellence, and community service."
+        title="Empowering Future Leaders to Aspire, Lead, and Excel."
+        subtitle="DYE is a youth-led organization that empowers student leaders and academic achievers in Davao to become future-oriented and socially responsible changemakers through training, coaching, partnerships, and outreach."
         ctaText="Partner With Us"
         ctaLink="/contact"
         secondaryCtaText="Learn More"
@@ -125,7 +125,7 @@ export default function Home() {
                   key={index}
                   className="p-8 bg-white border border-gray-200 rounded-xl hover:border-[#09006C] hover:shadow-lg transition-all group"
                 >
-                  <div className="inline-flex items-center justify-center w-12 h-12 bg-[#09006C]/10 rounded-lg mb-4 group-hover:bg-[#09006C] transition-colors">
+                  <div className="inline-flex items-center justify-center w-12 h-12 bg-[#09006C]/10 rounded-lg mb-4 group-hover:bg-[#1200D9] transition-colors">
                     <Icon className="text-[#09006C] group-hover:text-white transition-colors" size={24} />
                   </div>
                   <h3 className="font-semibold text-xl text-gray-900 mb-3">
@@ -190,7 +190,7 @@ export default function Home() {
               </p>
               <div className="flex items-center gap-8">
                 <div>
-                  <p className="text-4xl font-bold text-[#09006C]">15+</p>
+                  <p className="text-4xl font-bold text-[#09006C]">15</p>
                   <p className="text-gray-600 text-sm">Projects Completed</p>
                 </div>
                 <div>
@@ -234,7 +234,7 @@ export default function Home() {
               <Button
                 href="/about"
                 variant="outline"
-                className="bg-white/10 border-white text-white hover:bg-white hover:text-[#09006C]"
+                className="bg-white/10 border-white text-white hover:bg-white hover:text-[#1200D9]"
               >
                 Learn About Our Mission
               </Button>

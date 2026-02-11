@@ -4,6 +4,8 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import PageTransition from "@/components/ui/PageTransition";
+import SmoothScroll from "@/components/ui/SmoothScroll";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -64,8 +66,11 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${neuePower.variable} antialiased`}
       >
+        <SmoothScroll />
         <Header />
-        {children}
+        <PageTransition>
+          {children}
+        </PageTransition>
         <Footer />
       </body>
     </html>

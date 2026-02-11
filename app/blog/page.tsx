@@ -39,7 +39,7 @@ export default function Blog() {
                     <span className="text-sm text-gray-500">{post.readTime}</span>
                   </div>
 
-                  <h2 className="font-poppins font-bold text-2xl text-gray-900 mb-3 group-hover:text-[#09006C] transition-colors">
+                  <h2 className="font-poppins font-bold text-2xl text-gray-900 mb-3 group-hover:text-[#1200D9] transition-colors">
                     <Link href={`/blog/${post.id}`}>
                       {post.title}
                     </Link>

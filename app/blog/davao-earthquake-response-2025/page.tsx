@@ -165,7 +165,7 @@ export default function DavaoEarthquakeResponsePost() {
                 </div>
                 <div className="bg-white rounded-lg p-4 shadow-sm">
                   <p className="text-sm text-gray-500 mb-1">Families Helped</p>
-                  <p className="text-2xl font-bold text-[#f59e0b]">400+</p>
+                  <p className="text-2xl font-bold text-[#1200D9]">400+</p>
                   <p className="text-xs text-gray-600 mt-1">across both municipalities</p>
                 </div>
               </div>
@@ -196,35 +196,35 @@ export default function DavaoEarthquakeResponsePost() {
                   <h4 className="font-semibold text-[#09006C] mb-3">Food Supplies</h4>
                   <ul className="space-y-2 text-gray-600">
                     <li className="flex items-start">
-                      <span className="text-[#f59e0b] mr-2">•</span>
+                      <span className="text-[#1200D9] mr-2">•</span>
                       <span>20 sacks of rice</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-[#f59e0b] mr-2">•</span>
+                      <span className="text-[#1200D9] mr-2">•</span>
                       <span>2 cases Birch Tree Fortified milk</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-[#f59e0b] mr-2">•</span>
+                      <span className="text-[#1200D9] mr-2">•</span>
                       <span>8 cases Ho-Mi Noodle Beef</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-[#f59e0b] mr-2">•</span>
+                      <span className="text-[#1200D9] mr-2">•</span>
                       <span>5 cases Lucky 7 Carne Norte</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-[#f59e0b] mr-2">•</span>
+                      <span className="text-[#1200D9] mr-2">•</span>
                       <span>1 case Argentina Beef</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-[#f59e0b] mr-2">•</span>
+                      <span className="text-[#1200D9] mr-2">•</span>
                       <span>1 case Great Taste coffee</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-[#f59e0b] mr-2">•</span>
+                      <span className="text-[#1200D9] mr-2">•</span>
                       <span>4 cases Bingo Beef Loaf</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-[#f59e0b] mr-2">•</span>
+                      <span className="text-[#1200D9] mr-2">•</span>
                       <span>2 cases Sardines</span>
                     </li>
                   </ul>
@@ -234,19 +234,19 @@ export default function DavaoEarthquakeResponsePost() {
                   <h4 className="font-semibold text-[#09006C] mb-3">Hygiene & Essentials</h4>
                   <ul className="space-y-2 text-gray-600">
                     <li className="flex items-start">
-                      <span className="text-[#f59e0b] mr-2">•</span>
+                      <span className="text-[#1200D9] mr-2">•</span>
                       <span>2 cases Bioderm Bath Soap</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-[#f59e0b] mr-2">•</span>
+                      <span className="text-[#1200D9] mr-2">•</span>
                       <span>3 cases Solve Powder Wings detergent</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-[#f59e0b] mr-2">•</span>
+                      <span className="text-[#1200D9] mr-2">•</span>
                       <span>1 case Charmepe Nap All Night diapers</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-[#f59e0b] mr-2">•</span>
+                      <span className="text-[#1200D9] mr-2">•</span>
                       <span>1 case Lampein Baby Pants</span>
                     </li>
                   </ul>
@@ -254,11 +254,11 @@ export default function DavaoEarthquakeResponsePost() {
                   <h4 className="font-semibold text-[#09006C] mb-3 mt-6">Emergency Supplies</h4>
                   <ul className="space-y-2 text-gray-600">
                     <li className="flex items-start">
-                      <span className="text-[#f59e0b] mr-2">•</span>
+                      <span className="text-[#1200D9] mr-2">•</span>
                       <span>50 pieces Tents</span>
                     </li>
                     <li className="flex items-start">
-                      <span className="text-[#f59e0b] mr-2">•</span>
+                      <span className="text-[#1200D9] mr-2">•</span>
                       <span>10 boxes Solar Panels</span>
                     </li>
                   </ul>
@@ -482,7 +482,7 @@ export default function DavaoEarthquakeResponsePost() {
             <div className="text-center space-y-4">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center px-8 py-4 bg-[#f59e0b] text-white rounded-lg font-semibold hover:bg-[#d97706] transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
+                className="inline-flex items-center justify-center px-8 py-4 bg-[#1200D9] text-white rounded-lg font-semibold hover:bg-[#0C008A] transition-all shadow-lg hover:shadow-xl transform hover:-translate-y-0.5"
               >
                 Connect With Us
               </Link>

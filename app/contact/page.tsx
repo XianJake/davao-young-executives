@@ -130,19 +130,19 @@ export default function Contact() {
                 </p>
                 <ul className="space-y-3 text-blue-100">
                   <li className="flex items-start">
-                    <span className="inline-block w-2 h-2 bg-[#f59e0b] rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    <span className="inline-block w-2 h-2 bg-[#1200D9] rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     <span>Access to exclusive networking events and workshops</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="inline-block w-2 h-2 bg-[#f59e0b] rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    <span className="inline-block w-2 h-2 bg-[#1200D9] rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     <span>Mentorship opportunities with industry leaders</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="inline-block w-2 h-2 bg-[#f59e0b] rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    <span className="inline-block w-2 h-2 bg-[#1200D9] rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     <span>Community service projects and initiatives</span>
                   </li>
                   <li className="flex items-start">
-                    <span className="inline-block w-2 h-2 bg-[#f59e0b] rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                    <span className="inline-block w-2 h-2 bg-[#1200D9] rounded-full mt-2 mr-3 flex-shrink-0"></span>
                     <span>Professional development resources</span>
                   </li>
                 </ul>

@@ -107,23 +107,23 @@ export default function About() {
               <h3 className="font-bold text-2xl mb-6">What We Do</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-[#f59e0b] rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                  <span className="inline-block w-2 h-2 bg-[#1200D9] rounded-full mt-2 mr-3 flex-shrink-0"></span>
                   <span>Host regular networking events and professional development workshops</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-[#f59e0b] rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                  <span className="inline-block w-2 h-2 bg-[#1200D9] rounded-full mt-2 mr-3 flex-shrink-0"></span>
                   <span>Facilitate mentorship programs connecting emerging leaders with industry experts</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-[#f59e0b] rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                  <span className="inline-block w-2 h-2 bg-[#1200D9] rounded-full mt-2 mr-3 flex-shrink-0"></span>
                   <span>Organize community service projects addressing local needs</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-[#f59e0b] rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                  <span className="inline-block w-2 h-2 bg-[#1200D9] rounded-full mt-2 mr-3 flex-shrink-0"></span>
                   <span>Provide platforms for knowledge sharing and skill development</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="inline-block w-2 h-2 bg-[#f59e0b] rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                  <span className="inline-block w-2 h-2 bg-[#1200D9] rounded-full mt-2 mr-3 flex-shrink-0"></span>
                   <span>Build a strong community of young professionals committed to excellence</span>
                 </li>
               </ul>
@@ -216,7 +216,7 @@ export default function About() {
                   key={index}
                   className="text-center p-6 border border-gray-200 rounded-xl hover:border-[#09006C] hover:shadow-lg transition-all group"
                 >
-                  <div className="inline-flex items-center justify-center w-14 h-14 bg-[#09006C]/10 rounded-full mb-4 group-hover:bg-[#09006C] transition-colors">
+                  <div className="inline-flex items-center justify-center w-14 h-14 bg-[#09006C]/10 rounded-full mb-4 group-hover:bg-[#1200D9] transition-colors">
                     <Icon className="text-[#09006C] group-hover:text-white transition-colors" size={28} />
                   </div>
                   <h3 className="font-poppins font-semibold text-xl text-gray-900 mb-3">
@@ -244,7 +244,7 @@ export default function About() {
             </p>
             <a
               href="/contact"
-              className="inline-flex items-center justify-center px-8 py-4 bg-[#f59e0b] text-white rounded-lg font-medium hover:bg-[#d97706] transition-colors shadow-md hover:shadow-lg"
+              className="inline-flex items-center justify-center px-8 py-4 bg-[#1200D9] text-white rounded-lg font-medium hover:bg-[#0C008A] transition-colors shadow-md hover:shadow-lg"
             >
               Get in Touch
             </a>
