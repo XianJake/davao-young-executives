@@ -131,7 +131,7 @@ export default function DavaoEarthquakeResponsePost() {
             </p>
             <ul className="space-y-2 mb-6">
               <li className="text-gray-600 leading-relaxed">
-                <strong>Tech and Innovation:</strong> Dotside Studios, IEEE Philippine, The Bloom, DevCon Davao, Base, UX Davao, Davao Defi, MooManage and many more others
+                <strong>Tech and Innovation:</strong> Dotside Studios, IEEE Philippine, The Bloom, DevCon Davao, Base, UX Davao, Davao Defi, MooManage and many others
               </li>
               <li className="text-gray-600 leading-relaxed">
                 <strong>Student Organizations:</strong> Various university chapters including student councils from different institutions
